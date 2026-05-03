@@ -22,12 +22,12 @@ args = "Start application"
 name = "Start application"
 author = "agent"
 
+[workflows.workflow.metadata]
+outputType = "vnc"
+
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python pomniandjax.py"
-
-[workflows.workflow.metadata]
-outputType = "console"
+args = "python funnubunnycanon.py"
 
 [deployment]
 deploymentTarget = "vm"

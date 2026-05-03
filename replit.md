@@ -1,14 +1,15 @@
 # Project Overview
 
-A minimal Python project imported from GitHub.
+A Python project with turtle graphics.
 
 ## Structure
 
-- `pomniandjax.py` — Main script, prints "Hello world"
+- `funnubunnycanon.py` — Turtle graphics script (малює трикутник з кольорами purple/yellow)
+- `pomniandjax.py` — Simple "Hello world" script
 
 ## Setup
 
 - Language: Python 3.12
-- No external dependencies
-- Workflow: "Start application" runs `python pomniandjax.py` as a console process
-- Deployment: configured as `vm` target running `python pomniandjax.py`
+- System dependencies: `python312Packages.tkinter`, `tk` (для підтримки tkinter/turtle)
+- Workflow: "Start application" запускає `python funnubunnycanon.py` через VNC-дисплей
+- Deployment: `vm` target

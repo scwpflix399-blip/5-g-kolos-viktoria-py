@@ -1,0 +1,10 @@
+from turtle import*
+delay(400)
+shape('turtle')
+color('blue')
+stamp()
+forward(50)
+shapesize(2)
+stamp()
+forward(100)
+done()

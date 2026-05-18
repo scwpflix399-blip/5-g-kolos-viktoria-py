@@ -27,7 +27,7 @@ outputType = "vnc"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python example.24.1.py"
+args = "python example.29.29.py"
 
 [[workflows.workflow]]
 name = "Example 1 p 25"
